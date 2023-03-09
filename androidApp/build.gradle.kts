@@ -12,6 +12,7 @@ android {
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
+        signingConfig = signingConfigs.getByName("debug") //remove later, just for test to build a release version
     }
     buildFeatures {
         compose = true
@@ -40,10 +41,11 @@ android {
 
 dependencies {
 
-//    implementation(files("./libs/banking-debug-0.3.aar"))
-    implementation(project(mapOf("path" to ":androidApp:banking")))
-//    implementation(files("./libs/investing-debug-0.3.aar"))
-    implementation(project(mapOf("path" to ":androidApp:investing")))
+    debugImplementation(project(mapOf("path" to ":androidApp:banking")))
+    releaseImplementation(files("./libs/banking-debug-0.3.aar"))
+    debugImplementation(project(mapOf("path" to ":androidApp:investing")))
+    releaseImplementation(files("./libs/investing-debug-0.3.aar"))
+
 
     implementation(project(":shared"))
     implementation("androidx.navigation:navigation-compose:2.5.3")
