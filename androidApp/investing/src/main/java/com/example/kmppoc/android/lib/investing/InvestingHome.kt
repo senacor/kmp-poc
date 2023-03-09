@@ -13,7 +13,7 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
-import com.example.kmppoc.Greeting
+import com.example.kmppoc.domain.investing.DomainInvesting
 
 @Composable
 fun InvestingHome() {
@@ -24,7 +24,7 @@ fun InvestingHome() {
             .wrapContentSize(Alignment.Center)
     ) {
         Text(
-            text = "Investing Home 0.3 ${Greeting().greet()}",
+            text = "Investing Home 0.3 ${DomainInvesting().greet()}",
             fontWeight = FontWeight.Bold,
             color = Color.White,
             modifier = Modifier.align(Alignment.CenterHorizontally),

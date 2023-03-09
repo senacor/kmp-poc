@@ -47,7 +47,7 @@ dependencies {
     releaseImplementation(files("./libs/investing-debug-0.3.aar"))
 
 
-    implementation(project(":shared"))
+//    implementation(project(":shared"))
     implementation("androidx.navigation:navigation-compose:2.5.3")
 
     implementation("androidx.core:core-ktx:1.9.0")
