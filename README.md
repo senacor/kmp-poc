@@ -1,0 +1,1 @@
+Proof of concept for multi-team mobile app developmentgit remote add origin https://github.com/senacor/kmp-poc.gitgit 
