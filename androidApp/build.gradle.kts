@@ -40,8 +40,10 @@ android {
 
 dependencies {
 
-    implementation(files("./libs/banking-debug-0.3.aar"))
-    implementation(files("./libs/investing-debug-0.3.aar"))
+//    implementation(files("./libs/banking-debug-0.3.aar"))
+    implementation(project(mapOf("path" to ":androidApp:banking")))
+//    implementation(files("./libs/investing-debug-0.3.aar"))
+    implementation(project(mapOf("path" to ":androidApp:investing")))
 
     implementation(project(":shared"))
     implementation("androidx.navigation:navigation-compose:2.5.3")

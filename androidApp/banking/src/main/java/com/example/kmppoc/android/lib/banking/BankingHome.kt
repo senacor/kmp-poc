@@ -20,11 +20,11 @@ fun BankingHome() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(colorResource(id = android.R.color.holo_red_light))
+            .background(colorResource(id = android.R.color.holo_green_dark))
             .wrapContentSize(Alignment.Center)
     ) {
         Text(
-            text = "Banking 0.3 ${Greeting().greet()}",
+            text = "Banking DEV ${Greeting().greet()}",
             fontWeight = FontWeight.Bold,
             color = Color.White,
             modifier = Modifier.align(Alignment.CenterHorizontally),
