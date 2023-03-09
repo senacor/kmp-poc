@@ -18,12 +18,20 @@ kotlin {
         iosSimulatorArm64()
     ).forEach {
         it.binaries.framework {
-            baseName = "shared"
+            isStatic = false
+            export(project(":shared:domain:banking"))
+            export(project(":shared:domain:investing"))
+            transitiveExport = true
         }
     }
 
     sourceSets {
-        val commonMain by getting
+        val commonMain by getting {
+            dependencies{
+                api(project(":shared:domain:banking"))
+                api(project(":shared:domain:investing"))
+            }
+        }
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test"))
