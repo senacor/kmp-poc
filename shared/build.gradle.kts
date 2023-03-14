@@ -1,7 +1,10 @@
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
+    id("maven-publish")
 }
+group = "com.example.kmmpoc.shared"
+version = "1.0.0"
 
 kotlin {
     android {

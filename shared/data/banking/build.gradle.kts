@@ -1,7 +1,11 @@
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
+    id("maven-publish")
 }
+
+group = "com.example.kmmpoc.datada.banking"
+version = "1.0.0"
 
 kotlin {
     android {
@@ -23,7 +27,11 @@ kotlin {
     }
 
     sourceSets {
-        val commonMain by getting
+        val commonMain by getting {
+            dependencies {
+                implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
+            }
+        }
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test"))

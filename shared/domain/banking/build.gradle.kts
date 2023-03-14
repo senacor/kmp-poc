@@ -1,7 +1,11 @@
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
+    id("maven-publish")
 }
+
+group = "com.example.kmmpoc.domain.banking"
+version = "1.0.0"
 
 kotlin {
     android {
@@ -64,3 +68,21 @@ android {
         targetSdk = 33
     }
 }
+
+
+tasks.register("copyLibs") {
+    subprojects {
+        val runtimeClasspath =
+            project.configurations.matching { it.name == "desktopRuntimeClasspath" }
+        runtimeClasspath.all {
+            for (dep in map { file: File -> file.absoluteFile }) {
+                project.copy {
+                    from(dep)
+                    into("${rootProject.projectDir}/build/libs")
+                }
+            }
+        }
+    }
+}
+
+tasks.named("copyLibs") { dependsOn("build")}

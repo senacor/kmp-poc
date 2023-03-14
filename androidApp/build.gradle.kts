@@ -41,10 +41,13 @@ android {
 
 dependencies {
 
-    debugImplementation(project(mapOf("path" to ":androidApp:banking")))
-    releaseImplementation(files("./libs/banking-debug-0.3.aar"))
-    debugImplementation(project(mapOf("path" to ":androidApp:investing")))
-    releaseImplementation(files("./libs/investing-debug-0.3.aar"))
+    releaseImplementation(project(mapOf("path" to ":androidApp:banking")))
+    debugImplementation(files("./libs/banking-debug-0.3.aar"))
+    debugImplementation(files("./libs/domain-banking-debug-0.1.aar"))
+    debugImplementation(files("./libs/data-banking-debug-0.2.aar"))
+
+    releaseImplementation(project(mapOf("path" to ":androidApp:investing")))
+    debugImplementation(files("./libs/investing-debug-0.3.aar"))
 
 
 //    implementation(project(":shared"))
