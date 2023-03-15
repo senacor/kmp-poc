@@ -79,11 +79,5 @@ publishing {
                 from(components["release"])
             }
         }
-        repositories {
-            maven {
-                name = "myrepo"
-                url = uri("${project.buildDir}/repo")
-            }
-        }
     }
 }

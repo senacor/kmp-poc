@@ -66,16 +66,10 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.example.kmppoc.android.lib"
             artifactId = "investing"
-            version = "0.3"
+            version = "0.7"
 
             afterEvaluate {
                 from(components["release"])
-            }
-        }
-        repositories {
-            maven {
-                name = "myrepo"
-                url = uri("${project.buildDir}/repo")
             }
         }
     }

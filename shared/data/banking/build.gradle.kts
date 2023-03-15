@@ -1,7 +1,11 @@
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
+    id("maven-publish")
 }
+
+group = "com.example.kmppoc.shared.data.banking"
+version = "0.3"
 
 kotlin {
     android {
@@ -10,6 +14,7 @@ kotlin {
                 jvmTarget = "1.8"
             }
         }
+        publishLibraryVariants("release", "debug")
     }
     
     listOf(

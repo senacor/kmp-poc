@@ -39,12 +39,25 @@ android {
     }
 }
 
+repositories {
+    google()
+    gradlePluginPortal()
+    mavenCentral()
+    mavenLocal()
+}
+
 dependencies {
 
+    releaseImplementation("com.example.kmppoc.android.lib:banking:0.3")
     debugImplementation(project(mapOf("path" to ":androidApp:banking")))
-    releaseImplementation(files("./libs/banking-debug-0.3.aar"))
+
+    releaseImplementation("com.example.kmppoc.android.lib:investing:0.7")
     debugImplementation(project(mapOf("path" to ":androidApp:investing")))
-    releaseImplementation(files("./libs/investing-debug-0.3.aar"))
+
+//    debugImplementation(project(mapOf("path" to ":androidApp:banking")))
+//    releaseImplementation(files("./libs/banking-debug-0.3.aar"))
+//    debugImplementation(project(mapOf("path" to ":androidApp:investing")))
+//    releaseImplementation(files("./libs/investing-debug-0.3.aar"))
 
 
 //    implementation(project(":shared"))
