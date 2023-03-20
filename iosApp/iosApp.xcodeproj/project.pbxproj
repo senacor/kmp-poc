@@ -11,18 +11,18 @@
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
-		CFA219DD29BF27FD00DB9756 /* UIBanking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA219D529BF27FD00DB9756 /* UIBanking.framework */; };
-		CFA219E429BF27FE00DB9756 /* UIBankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA219E329BF27FE00DB9756 /* UIBankingTests.swift */; };
-		CFA219E529BF27FE00DB9756 /* UIBanking.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA219D729BF27FD00DB9756 /* UIBanking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFA219E829BF27FE00DB9756 /* UIBanking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA219D529BF27FD00DB9756 /* UIBanking.framework */; };
-		CFA219E929BF27FE00DB9756 /* UIBanking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFA219D529BF27FD00DB9756 /* UIBanking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CFA219FD29BF28D700DB9756 /* UIInvesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA219F529BF28D600DB9756 /* UIInvesting.framework */; };
-		CFA21A0429BF28D700DB9756 /* UIInvestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA21A0329BF28D700DB9756 /* UIInvestingTests.swift */; };
-		CFA21A0529BF28D700DB9756 /* UIInvesting.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA219F729BF28D600DB9756 /* UIInvesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFA21A0829BF28D700DB9756 /* UIInvesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA219F529BF28D600DB9756 /* UIInvesting.framework */; };
-		CFA21A0929BF28D700DB9756 /* UIInvesting.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFA219F529BF28D600DB9756 /* UIInvesting.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CFA21A1129BF2A6300DB9756 /* BankingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA21A1029BF2A6300DB9756 /* BankingContentView.swift */; };
-		CFA21A6729BF3A5C00DB9756 /* InvestingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA21A6629BF3A5C00DB9756 /* InvestingContentView.swift */; };
+		CFA219DD29BF27FD00DB9756 /* UIZahlungsverkehr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA219D529BF27FD00DB9756 /* UIZahlungsverkehr.framework */; };
+		CFA219E429BF27FE00DB9756 /* UIZahlungsverkehrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA219E329BF27FE00DB9756 /* UIZahlungsverkehrTests.swift */; };
+		CFA219E529BF27FE00DB9756 /* UIZahlungsverkehr.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA219D729BF27FD00DB9756 /* UIZahlungsverkehr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFA219E829BF27FE00DB9756 /* UIZahlungsverkehr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA219D529BF27FD00DB9756 /* UIZahlungsverkehr.framework */; };
+		CFA219E929BF27FE00DB9756 /* UIZahlungsverkehr.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFA219D529BF27FD00DB9756 /* UIZahlungsverkehr.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFA219FD29BF28D700DB9756 /* UIGiro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA219F529BF28D600DB9756 /* UIGiro.framework */; };
+		CFA21A0429BF28D700DB9756 /* UIGiroTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA21A0329BF28D700DB9756 /* UIGiroTest.swift */; };
+		CFA21A0529BF28D700DB9756 /* UIGiro.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA219F729BF28D600DB9756 /* UIGiro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFA21A0829BF28D700DB9756 /* UIGiro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA219F529BF28D600DB9756 /* UIGiro.framework */; };
+		CFA21A0929BF28D700DB9756 /* UIGiro.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFA219F529BF28D600DB9756 /* UIGiro.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFA21A1129BF2A6300DB9756 /* ZahlungsverkehrContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA21A1029BF2A6300DB9756 /* ZahlungsverkehrContentView.swift */; };
+		CFA21A6729BF3A5C00DB9756 /* GiroContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA21A6629BF3A5C00DB9756 /* GiroContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,8 +77,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CFA219E929BF27FE00DB9756 /* UIBanking.framework in Embed Frameworks */,
-				CFA21A0929BF28D700DB9756 /* UIInvesting.framework in Embed Frameworks */,
+				CFA219E929BF27FE00DB9756 /* UIZahlungsverkehr.framework in Embed Frameworks */,
+				CFA21A0929BF28D700DB9756 /* UIGiro.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,19 +92,19 @@
 		7555FF7B242A565900829871 /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFA219D529BF27FD00DB9756 /* UIBanking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIBanking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFA219D729BF27FD00DB9756 /* UIBanking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIBanking.h; sourceTree = "<group>"; };
-		CFA219DC29BF27FD00DB9756 /* UIBankingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIBankingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFA219E329BF27FE00DB9756 /* UIBankingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBankingTests.swift; sourceTree = "<group>"; };
-		CFA219F529BF28D600DB9756 /* UIInvesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIInvesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFA219F729BF28D600DB9756 /* UIInvesting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIInvesting.h; sourceTree = "<group>"; };
-		CFA219FC29BF28D700DB9756 /* UIInvestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIInvestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFA21A0329BF28D700DB9756 /* UIInvestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIInvestingTests.swift; sourceTree = "<group>"; };
-		CFA21A1029BF2A6300DB9756 /* BankingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingContentView.swift; sourceTree = "<group>"; };
+		CFA219D529BF27FD00DB9756 /* UIZahlungsverkehr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIZahlungsverkehr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA219D729BF27FD00DB9756 /* UIZahlungsverkehr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIZahlungsverkehr.h; sourceTree = "<group>"; };
+		CFA219DC29BF27FD00DB9756 /* UIZahlungsverkehrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIZahlungsverkehrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA219E329BF27FE00DB9756 /* UIZahlungsverkehrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIZahlungsverkehrTests.swift; sourceTree = "<group>"; };
+		CFA219F529BF28D600DB9756 /* UIGiro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIGiro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA219F729BF28D600DB9756 /* UIGiro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIGiro.h; sourceTree = "<group>"; };
+		CFA219FC29BF28D700DB9756 /* UIGiroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIGiroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA21A0329BF28D700DB9756 /* UIGiroTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGiroTest.swift; sourceTree = "<group>"; };
+		CFA21A1029BF2A6300DB9756 /* ZahlungsverkehrContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZahlungsverkehrContentView.swift; sourceTree = "<group>"; };
 		CFA21A1229BF2E7400DB9756 /* shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = shared.h; path = "../shared/build/xcode-frameworks/Debug/iphonesimulator16.2/shared.framework/Headers/shared.h"; sourceTree = "<group>"; };
 		CFA21A1429BF36F400DB9756 /* shared */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = shared; path = "../shared/build/xcode-frameworks/Debug/iphonesimulator16.2/shared.framework/shared"; sourceTree = "<group>"; };
 		CFA21A6329BF38F200DB9756 /* shared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared.framework; path = "../shared/build/xcode-frameworks/Debug/iphonesimulator16.2/shared.framework"; sourceTree = "<group>"; };
-		CFA21A6629BF3A5C00DB9756 /* InvestingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestingContentView.swift; sourceTree = "<group>"; };
+		CFA21A6629BF3A5C00DB9756 /* GiroContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiroContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA219E829BF27FE00DB9756 /* UIBanking.framework in Frameworks */,
-				CFA21A0829BF28D700DB9756 /* UIInvesting.framework in Frameworks */,
+				CFA219E829BF27FE00DB9756 /* UIZahlungsverkehr.framework in Frameworks */,
+				CFA21A0829BF28D700DB9756 /* UIGiro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA219DD29BF27FD00DB9756 /* UIBanking.framework in Frameworks */,
+				CFA219DD29BF27FD00DB9756 /* UIZahlungsverkehr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA219FD29BF28D700DB9756 /* UIInvesting.framework in Frameworks */,
+				CFA219FD29BF28D700DB9756 /* UIGiro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,10 +162,10 @@
 			isa = PBXGroup;
 			children = (
 				7555FF7D242A565900829871 /* iosApp */,
-				CFA219D629BF27FD00DB9756 /* UIBanking */,
-				CFA219E229BF27FE00DB9756 /* UIBankingTests */,
-				CFA219F629BF28D600DB9756 /* UIInvesting */,
-				CFA21A0229BF28D700DB9756 /* UIInvestingTests */,
+				CFA219D629BF27FD00DB9756 /* UIZahlungsverkehr */,
+				CFA219E229BF27FE00DB9756 /* UIZahlungsverkehrTests */,
+				CFA219F629BF28D600DB9756 /* UIGiro */,
+				CFA21A0229BF28D700DB9756 /* UIGiroTests */,
 				7555FF7C242A565900829871 /* Products */,
 				7555FFB0242A642200829871 /* Frameworks */,
 			);
@@ -175,10 +175,10 @@
 			isa = PBXGroup;
 			children = (
 				7555FF7B242A565900829871 /* iosApp.app */,
-				CFA219D529BF27FD00DB9756 /* UIBanking.framework */,
-				CFA219DC29BF27FD00DB9756 /* UIBankingTests.xctest */,
-				CFA219F529BF28D600DB9756 /* UIInvesting.framework */,
-				CFA219FC29BF28D700DB9756 /* UIInvestingTests.xctest */,
+				CFA219D529BF27FD00DB9756 /* UIZahlungsverkehr.framework */,
+				CFA219DC29BF27FD00DB9756 /* UIZahlungsverkehrTests.xctest */,
+				CFA219F529BF28D600DB9756 /* UIGiro.framework */,
+				CFA219FC29BF28D700DB9756 /* UIGiroTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,38 +205,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CFA219D629BF27FD00DB9756 /* UIBanking */ = {
+		CFA219D629BF27FD00DB9756 /* UIZahlungsverkehr */ = {
 			isa = PBXGroup;
 			children = (
-				CFA219D729BF27FD00DB9756 /* UIBanking.h */,
-				CFA21A1029BF2A6300DB9756 /* BankingContentView.swift */,
+				CFA219D729BF27FD00DB9756 /* UIZahlungsverkehr.h */,
+				CFA21A1029BF2A6300DB9756 /* ZahlungsverkehrContentView.swift */,
 			);
-			path = UIBanking;
+			path = UIZahlungsverkehr;
 			sourceTree = "<group>";
 		};
-		CFA219E229BF27FE00DB9756 /* UIBankingTests */ = {
+		CFA219E229BF27FE00DB9756 /* UIZahlungsverkehrTests */ = {
 			isa = PBXGroup;
 			children = (
-				CFA219E329BF27FE00DB9756 /* UIBankingTests.swift */,
+				CFA219E329BF27FE00DB9756 /* UIZahlungsverkehrTests.swift */,
 			);
-			path = UIBankingTests;
+			path = UIZahlungsverkehrTests;
 			sourceTree = "<group>";
 		};
-		CFA219F629BF28D600DB9756 /* UIInvesting */ = {
+		CFA219F629BF28D600DB9756 /* UIGiro */ = {
 			isa = PBXGroup;
 			children = (
-				CFA219F729BF28D600DB9756 /* UIInvesting.h */,
-				CFA21A6629BF3A5C00DB9756 /* InvestingContentView.swift */,
+				CFA219F729BF28D600DB9756 /* UIGiro.h */,
+				CFA21A6629BF3A5C00DB9756 /* GiroContentView.swift */,
 			);
-			path = UIInvesting;
+			path = UIGiro;
 			sourceTree = "<group>";
 		};
-		CFA21A0229BF28D700DB9756 /* UIInvestingTests */ = {
+		CFA21A0229BF28D700DB9756 /* UIGiroTests */ = {
 			isa = PBXGroup;
 			children = (
-				CFA21A0329BF28D700DB9756 /* UIInvestingTests.swift */,
+				CFA21A0329BF28D700DB9756 /* UIGiroTest.swift */,
 			);
-			path = UIInvestingTests;
+			path = UIGiroTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +246,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA219E529BF27FE00DB9756 /* UIBanking.h in Headers */,
+				CFA219E529BF27FE00DB9756 /* UIZahlungsverkehr.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +254,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA21A0529BF28D700DB9756 /* UIInvesting.h in Headers */,
+				CFA21A0529BF28D700DB9756 /* UIGiro.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +282,9 @@
 			productReference = 7555FF7B242A565900829871 /* iosApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CFA219D429BF27FD00DB9756 /* UIBanking */ = {
+		CFA219D429BF27FD00DB9756 /* UIZahlungsverkehr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFA219EA29BF27FE00DB9756 /* Build configuration list for PBXNativeTarget "UIBanking" */;
+			buildConfigurationList = CFA219EA29BF27FE00DB9756 /* Build configuration list for PBXNativeTarget "UIZahlungsverkehr" */;
 			buildPhases = (
 				CFA219D029BF27FD00DB9756 /* Headers */,
 				CFA219D129BF27FD00DB9756 /* Sources */,
@@ -295,14 +295,14 @@
 			);
 			dependencies = (
 			);
-			name = UIBanking;
+			name = UIZahlungsverkehr;
 			productName = UIBanking;
-			productReference = CFA219D529BF27FD00DB9756 /* UIBanking.framework */;
+			productReference = CFA219D529BF27FD00DB9756 /* UIZahlungsverkehr.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CFA219DB29BF27FD00DB9756 /* UIBankingTests */ = {
+		CFA219DB29BF27FD00DB9756 /* UIZahlungsverkehrTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFA219ED29BF27FE00DB9756 /* Build configuration list for PBXNativeTarget "UIBankingTests" */;
+			buildConfigurationList = CFA219ED29BF27FE00DB9756 /* Build configuration list for PBXNativeTarget "UIZahlungsverkehrTests" */;
 			buildPhases = (
 				CFA219D829BF27FD00DB9756 /* Sources */,
 				CFA219D929BF27FD00DB9756 /* Frameworks */,
@@ -314,14 +314,14 @@
 				CFA219DF29BF27FD00DB9756 /* PBXTargetDependency */,
 				CFA219E129BF27FE00DB9756 /* PBXTargetDependency */,
 			);
-			name = UIBankingTests;
+			name = UIZahlungsverkehrTests;
 			productName = UIBankingTests;
-			productReference = CFA219DC29BF27FD00DB9756 /* UIBankingTests.xctest */;
+			productReference = CFA219DC29BF27FD00DB9756 /* UIZahlungsverkehrTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CFA219F429BF28D600DB9756 /* UIInvesting */ = {
+		CFA219F429BF28D600DB9756 /* UIGiro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFA21A0A29BF28D700DB9756 /* Build configuration list for PBXNativeTarget "UIInvesting" */;
+			buildConfigurationList = CFA21A0A29BF28D700DB9756 /* Build configuration list for PBXNativeTarget "UIGiro" */;
 			buildPhases = (
 				CFA219F029BF28D600DB9756 /* Headers */,
 				CFA219F129BF28D600DB9756 /* Sources */,
@@ -332,14 +332,14 @@
 			);
 			dependencies = (
 			);
-			name = UIInvesting;
+			name = UIGiro;
 			productName = UIInvesting;
-			productReference = CFA219F529BF28D600DB9756 /* UIInvesting.framework */;
+			productReference = CFA219F529BF28D600DB9756 /* UIGiro.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CFA219FB29BF28D700DB9756 /* UIInvestingTests */ = {
+		CFA219FB29BF28D700DB9756 /* UIGiroTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFA21A0D29BF28D700DB9756 /* Build configuration list for PBXNativeTarget "UIInvestingTests" */;
+			buildConfigurationList = CFA21A0D29BF28D700DB9756 /* Build configuration list for PBXNativeTarget "UIGiroTests" */;
 			buildPhases = (
 				CFA219F829BF28D700DB9756 /* Sources */,
 				CFA219F929BF28D700DB9756 /* Frameworks */,
@@ -351,9 +351,9 @@
 				CFA219FF29BF28D700DB9756 /* PBXTargetDependency */,
 				CFA21A0129BF28D700DB9756 /* PBXTargetDependency */,
 			);
-			name = UIInvestingTests;
+			name = UIGiroTests;
 			productName = UIInvestingTests;
-			productReference = CFA219FC29BF28D700DB9756 /* UIInvestingTests.xctest */;
+			productReference = CFA219FC29BF28D700DB9756 /* UIGiroTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -401,10 +401,10 @@
 			projectRoot = "";
 			targets = (
 				7555FF7A242A565900829871 /* iosApp */,
-				CFA219D429BF27FD00DB9756 /* UIBanking */,
-				CFA219DB29BF27FD00DB9756 /* UIBankingTests */,
-				CFA219F429BF28D600DB9756 /* UIInvesting */,
-				CFA219FB29BF28D700DB9756 /* UIInvestingTests */,
+				CFA219D429BF27FD00DB9756 /* UIZahlungsverkehr */,
+				CFA219DB29BF27FD00DB9756 /* UIZahlungsverkehrTests */,
+				CFA219F429BF28D600DB9756 /* UIGiro */,
+				CFA219FB29BF28D700DB9756 /* UIGiroTests */,
 			);
 		};
 /* End PBXProject section */
@@ -483,7 +483,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA21A1129BF2A6300DB9756 /* BankingContentView.swift in Sources */,
+				CFA21A1129BF2A6300DB9756 /* ZahlungsverkehrContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA219E429BF27FE00DB9756 /* UIBankingTests.swift in Sources */,
+				CFA219E429BF27FE00DB9756 /* UIZahlungsverkehrTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +499,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA21A6729BF3A5C00DB9756 /* InvestingContentView.swift in Sources */,
+				CFA21A6729BF3A5C00DB9756 /* GiroContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +507,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA21A0429BF28D700DB9756 /* UIInvestingTests.swift in Sources */,
+				CFA21A0429BF28D700DB9756 /* UIGiroTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,7 +516,7 @@
 /* Begin PBXTargetDependency section */
 		CFA219DF29BF27FD00DB9756 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CFA219D429BF27FD00DB9756 /* UIBanking */;
+			target = CFA219D429BF27FD00DB9756 /* UIZahlungsverkehr */;
 			targetProxy = CFA219DE29BF27FD00DB9756 /* PBXContainerItemProxy */;
 		};
 		CFA219E129BF27FE00DB9756 /* PBXTargetDependency */ = {
@@ -526,12 +526,12 @@
 		};
 		CFA219E729BF27FE00DB9756 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CFA219D429BF27FD00DB9756 /* UIBanking */;
+			target = CFA219D429BF27FD00DB9756 /* UIZahlungsverkehr */;
 			targetProxy = CFA219E629BF27FE00DB9756 /* PBXContainerItemProxy */;
 		};
 		CFA219FF29BF28D700DB9756 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CFA219F429BF28D600DB9756 /* UIInvesting */;
+			target = CFA219F429BF28D600DB9756 /* UIGiro */;
 			targetProxy = CFA219FE29BF28D700DB9756 /* PBXContainerItemProxy */;
 		};
 		CFA21A0129BF28D700DB9756 /* PBXTargetDependency */ = {
@@ -541,7 +541,7 @@
 		};
 		CFA21A0729BF28D700DB9756 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CFA219F429BF28D600DB9756 /* UIInvesting */;
+			target = CFA219F429BF28D600DB9756 /* UIGiro */;
 			targetProxy = CFA21A0629BF28D700DB9756 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -958,7 +958,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFA219EA29BF27FE00DB9756 /* Build configuration list for PBXNativeTarget "UIBanking" */ = {
+		CFA219EA29BF27FE00DB9756 /* Build configuration list for PBXNativeTarget "UIZahlungsverkehr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFA219EB29BF27FE00DB9756 /* Debug */,
@@ -967,7 +967,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFA219ED29BF27FE00DB9756 /* Build configuration list for PBXNativeTarget "UIBankingTests" */ = {
+		CFA219ED29BF27FE00DB9756 /* Build configuration list for PBXNativeTarget "UIZahlungsverkehrTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFA219EE29BF27FE00DB9756 /* Debug */,
@@ -976,7 +976,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFA21A0A29BF28D700DB9756 /* Build configuration list for PBXNativeTarget "UIInvesting" */ = {
+		CFA21A0A29BF28D700DB9756 /* Build configuration list for PBXNativeTarget "UIGiro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFA21A0B29BF28D700DB9756 /* Debug */,
@@ -985,7 +985,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFA21A0D29BF28D700DB9756 /* Build configuration list for PBXNativeTarget "UIInvestingTests" */ = {
+		CFA21A0D29BF28D700DB9756 /* Build configuration list for PBXNativeTarget "UIGiroTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFA21A0E29BF28D700DB9756 /* Debug */,

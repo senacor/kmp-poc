@@ -1,12 +1,12 @@
 import Foundation
 import SwiftUI
 
-// import shared
+import shared
 
-public struct InvestingContentView: View {
+public struct ZahlungsverkehrContentView: View {
     //problem here is that kmm for ios just expose one framework file, which include all modules of kmm see
     //https://akjaw.com/modularizing-a-kotlin-multiplatform-mobile-project/
-    let greet = "DomainInvesting().greet()"
+    let greet = LogicZahlungsverkehr().greet()
     
     public init() {}
     

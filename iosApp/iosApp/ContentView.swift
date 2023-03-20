@@ -7,8 +7,8 @@ struct ContentView: View {
     
     var body: some View {
         VStack(alignment: .center, spacing: 20) {
-            BankingContentView()
-            InvestingContentView()
+            ZahlungsverkehrContentView()
+            GiroContentView()
         }
     }
 }
