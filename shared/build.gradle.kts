@@ -19,8 +19,8 @@ kotlin {
     ).forEach {
         it.binaries.framework {
             isStatic = false
-            export(project(":shared:domain:banking"))
-            export(project(":shared:domain:investing"))
+            export(project(":shared:logic:giro"))
+            export(project(":shared:logic:zahlungsverkehr"))
             transitiveExport = true
         }
     }
@@ -28,8 +28,8 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies{
-                api(project(":shared:domain:banking"))
-                api(project(":shared:domain:investing"))
+                api(project(":shared:logic:giro"))
+                api(project(":shared:logic:zahlungsverkehr"))
             }
         }
         val commonTest by getting {

@@ -3,6 +3,14 @@ plugins {
     kotlin("android")
 }
 
+repositories {
+    google()
+    gradlePluginPortal()
+    mavenCentral()
+    mavenLocal()
+}
+
+
 android {
     namespace = "com.example.kmppoc.android"
     compileSdk = 33
@@ -41,10 +49,12 @@ android {
 
 dependencies {
 
-    debugImplementation(project(mapOf("path" to ":androidApp:banking")))
-    releaseImplementation(files("./libs/banking-debug-0.3.aar"))
-    debugImplementation(project(mapOf("path" to ":androidApp:investing")))
-    releaseImplementation(files("./libs/investing-debug-0.3.aar"))
+//    implementation("com.example.kmppoc.android.lib:zahlungsverkehr:1.0.0")
+//    implementation("com.example.kmppoc.android.lib:giro:1.0.0")
+    debugImplementation(project(mapOf("path" to ":androidApp:zahlungsverkehr")))
+    releaseImplementation("com.example.kmppoc.android.lib:zahlungsverkehr:1.0.0")
+    debugImplementation(project(mapOf("path" to ":androidApp:giro")))
+    releaseImplementation("com.example.kmppoc.android.lib:giro:1.0.0")
 
 
 //    implementation(project(":shared"))
